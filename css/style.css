@@ -1,0 +1,219 @@
+
+body{
+    background-color: #F8EDDD;
+}
+
+/* nav bar mobile  */
+.mobile{
+    background-color: #B8D3C5;
+    width: 100%;
+    height: 8.5%;
+    position: fixed;
+    bottom: 0;
+    border-radius: 30px;
+}
+.mobile a{
+    color: black;
+    /* text-align: center; */
+    padding: 12px;
+    font-size: 30px;
+}
+
+
+/* add travel mobile */
+.principale{
+    background-image: url(../image/3760110.jpg);
+    background-size: 100% 100%;
+    border: 1px;                         
+    height: 50vh;
+    width: 100vw;                          
+}
+
+.principale .search-travel{
+    background-color: #B8D3C5;  
+    position: fixed;
+    width: 70vw;
+    border-radius: 30px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+.form__field::placeholder {
+    color: transparent;
+}
+.form__field:placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+}
+.form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #9b9b9b;
+}
+.form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #11998e, #38ef7d);
+    border-image-slice: 1;
+}
+.form__field:focus ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #11998e;
+    font-weight: 700;
+}
+/* reset input */
+.form__field:required, .form__field:invalid {
+    box-shadow: none;
+}
+
+/* button submit */
+
+.btn-submit{
+    width: 100%;
+    background-color: #88B775;
+    border-radius: 0 0 30px 30px;
+    height: 60px;
+}
+
+/* input to icon */
+
+.input-with-icon {
+    position: relative;
+  }
+  
+  .input-with-icon i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #888;
+  }
+  
+  .input-with-icon input[type="date"],
+  .input-with-icon input[type="number"] {
+    padding-left: 30px;
+    background-color: #B8D3C5;
+  }
+  
+  .input-with-icon input[type="date"]::before {
+    content: ""; /* Remove the content */
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+  }
+  /* .input-with-icon input[type="date"]::before {
+    content: "\f073"; 
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 16px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+  } */
+  
+  .input-with-icon input[type="number"]::before {
+    content: "\f406"; /* Font Awesome person icon */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 16px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+  }
+  
+  /* Optional styling for the input fields and labels */
+  .input-icon label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-icon input[type="date"],
+  .input-icon input[type="number"] {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+
+
+
+
+/* profile mobile */
+.images img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.btn-logout{
+    background-color: #88B775;
+    height: 5vh;
+    width: 26vw;
+    border-radius: 30px;
+}
+
+.description{
+    background-color: #B8D3C5;
+    margin-top: 7vh;
+    border-radius: 30px;
+}
+
+.description p{
+    
+}
+
+.phone i{
+    font-size: 40px;
+    
+}
+
+.check i{
+    font-size: 40px;
+    color: #88B775;
+}
+
+.star i{
+    font-size: 40px;
+    color: #88B775;
+    margin: 10px;
+}
