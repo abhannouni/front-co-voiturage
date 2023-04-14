@@ -21,7 +21,7 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <title>add</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/header-footer.css" />
   </head>
@@ -84,61 +84,36 @@
       </div>
   </nav>
 
-    <div class="container mt-5">
-        <div class="row mt-4">
-            <div class="col-6">
-                <div class="d-flex justify-content-around">
-                    <div class="images">
-                        <img src="https://akamai.sscdn.co/uploadfile/letras/fotos/a/6/8/f/a68f606490b243e1f8a3e0665b22b3bb.jpg" alt="">
-                    </div>
-                    <div class="d-flex flex-column align-items-center mt-3">
-                        <p>name</p>
-                        <p>job</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 d-flex justify-content-center align-items-center">
-                <button class="btn btn-logout">
-                    logout
-                </button>
-            </div>
-        </div>
-        <div class="description">
-            <p class="m-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio recusandae distinctio totam aliquam delectus excepturi labore velit, odio repudiandae similique temporibus, rerum architecto consequuntur repellat, deleniti eaque asperiores esse incidunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus alias iure minima esse quasi neque sunt dolores necessitatibus autem magni labore corrupti blanditiis, fugit adipisci ab temporibus expedita sapiente ducimus?</p>
-        </div>
-        <div class="container row d-flex align-items-end">
-            <div class="col-2 phone">
-                <i class="bi bi-phone"></i>
-            </div>
-            <div class="col-8">
-                <p>0621851627</p>
-            </div>
-            <div class="col-2 check">
-                <i class="bi bi-check-circle"></i>
-            </div>
-            <div class="col-2 phone">
-                <i class="bi bi-mailbox"></i>
-            </div>
-            <div class="col-8">
-                <p>abdeslam@gmail.com</p>
-            </div>
-            <div class="col-2 check">
-                <i class="bi bi-check-circle"></i>
-            </div>
-        </div>
-        <div class="container d-flex justify-content-center m-3">
-            <button class="btn btn-logout">edit</button>
-        </div>
-        <div class="container d-flex justify-content-center star m-3">
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-half"></i>
-            <i class="bi bi-star"></i>
-        </div>
+    <div id="form-fill">
+      <div id="trapezoid">
+        <form class="frm-second">
+          <input type="text" name="" id="" placeholder="start" />
+          <input type="text" name="" id="" placeholder="end" />
+          <div class="d-flex justify-content-around">
+            <input type="text" name="" id="" onfocus="(this.type='date')" placeholder="date" />
+              <input type="text" name="" id="" onfocus="(this.type='number')" placeholder="persone" />
+
+          </div>
+          <button type="submit" class="btn">search</button>
+        </form>
+      </div>
+      <div class="picture"></div>
     </div>
 
-    <br><br><br>
+    <div class="container principale">
+      <div class="search-travel">
+        <form class="frm-second">
+          <input type="text" name="" id="" placeholder="start" />
+          <input type="text" name="" id="" placeholder="end" />
+          <div class="d-flex justify-content-around">
+            <input type="text" name="" id="" onfocus="(this.type='date')" placeholder="date" />
+              <input type="text" name="" id="" onfocus="(this.type='number')" placeholder="persone" />
+
+          </div>
+          <button type="submit" class="btn">search</button>
+        </form>
+      </div>
+    </div>
 
     <footer>
       <div class="cpy-right d-flex justify-content-center flex-column">
@@ -151,6 +126,5 @@
         </div>
       </div>
     </footer>
-    <script src="js/registre.js"></script>
   </body>
 </html>
